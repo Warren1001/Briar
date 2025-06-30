@@ -52,7 +52,7 @@ namespace BlossomiShymae.Briar
         /// <returns></returns>
         public static LcuHttpClient GetLcuHttpClientInstance()
         {
-            return LcuHttpClient.Instance;
+            return LcuHttpClient.GetInstance();
         }
 
         /// <summary>
